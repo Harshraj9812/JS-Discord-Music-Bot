@@ -4,7 +4,7 @@ const Client = require('./client/Client');
 const config = require('./config.json');
 const {Player} = require('discord-player');
 
-const keepAlive = require("./server");
+// const keepAlive = require("./server");
 
 
 const client = new Client();
@@ -99,7 +99,7 @@ client.on('interactionCreate', async interaction => {
   }
 });
 
-keepAlive()
+// keepAlive()
 // https://HR-BOT-Music-JS.harshraj48.repl.co
 
 // client.login(process.env.token);
