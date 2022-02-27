@@ -29,6 +29,9 @@
     "fluent-ffmpeg": "^2.1.2",
     "ytdl-core": "^4.10.1"
   },
+  "engines":{
+    "node":"16.13.1"
+  },
   "bugs": {
     "url": "https://github.com/Harshraj9812/HR-BOT-Music-JS"
   },
