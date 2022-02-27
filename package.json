@@ -1,15 +1,14 @@
 {
-  "name": "music-bot",
+  "name": "HR-BOT",
   "version": "1.0.0",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/TannerGabriel/discord-music-bot.git"
+    "url": "git+https://github.com/Harshraj9812/HR-BOT-Music-JS"
   },
-  "description": "A simple discord music bot",
+  "description": "Advance Music Bot",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "prettier --write \"**/*.js\"",
     "start": "node index.js",
     "build": "react-scripts build"
   },
@@ -18,7 +17,7 @@
     "music",
     "bot"
   ],
-  "author": "Gabriel Tanner",
+  "author": "Harsh Raj",
   "license": "MIT",
   "dependencies": {
     "@discordjs/opus": "^0.6.0",
@@ -28,14 +27,10 @@
     "ffmpeg": "0.0.4",
     "ffmpeg-static": "^4.4.1",
     "fluent-ffmpeg": "^2.1.2",
-    "node": "^16.13.2",
     "ytdl-core": "^4.10.1"
   },
-  "devDependencies": {
-    "prettier": "2.4.1"
-  },
   "bugs": {
-    "url": "https://github.com/TannerGabriel/discord-music-bot/issues"
+    "url": "https://github.com/Harshraj9812/HR-BOT-Music-JS"
   },
-  "homepage": "https://github.com/TannerGabriel/discord-music-bot#readme"
+  "homepage": "https://github.com/Harshraj9812/HR-BOT-Music-JS#readme"
 }
