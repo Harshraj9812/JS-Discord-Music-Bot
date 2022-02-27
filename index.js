@@ -99,7 +99,7 @@ client.on('interactionCreate', async interaction => {
   }
 });
 
-// keepAlive()
+keepAlive()
 // https://HR-BOT-Music-JS.harshraj48.repl.co
 
 // client.login(process.env.token);
