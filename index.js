@@ -4,7 +4,7 @@ const Client = require('./client/Client');
 const config = require('./config.json');
 const {Player} = require('discord-player');
 
-// const keepAlive = require("./server");
+const keepAlive = require("./server");
 
 
 const client = new Client();
