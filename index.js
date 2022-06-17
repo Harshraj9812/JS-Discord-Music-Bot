@@ -1,3 +1,4 @@
+require("dotenv").config();
 const fs = require('fs');
 const Discord = require('discord.js');
 const Client = require('./client/Client');
@@ -103,4 +104,6 @@ keepAlive()
 // https://HR-BOT-Music-JS.harshraj48.repl.co
 
 // client.login(process.env.token);
-client.login(config.token);
+const apiKey = process.env.HR_BOT;
+console.log(apiKey)
+client.login(apiKey);
