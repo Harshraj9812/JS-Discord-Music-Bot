@@ -1,3 +1,4 @@
+// Accessing .env file using "dotenv" package
 require("dotenv").config();
 const fs = require('fs');
 const Discord = require('discord.js');
@@ -105,5 +106,5 @@ keepAlive()
 
 // client.login(process.env.token);
 const apiKey = process.env.HR_BOT;
-console.log(apiKey)
+// console.log(apiKey)
 client.login(apiKey);
