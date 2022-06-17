@@ -27,7 +27,6 @@
     "ffmpeg": "0.0.4",
     "ffmpeg-static": "^4.4.1",
     "fluent-ffmpeg": "^2.1.2",
-    "pm2": "^5.2.0",
     "ytdl-core": "^4.10.1"
   },
   "engines": {
