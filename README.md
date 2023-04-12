@@ -1,4 +1,4 @@
-# Discord Music Bot 
+# Discord Music Bot  
 
 ## Features & Commands
 
@@ -50,6 +50,8 @@
 ***
 
 ## Deploy on Docker
+
+[![Update & Publish Docker Image to Docker Hub](https://github.com/Harshraj9812/HR-Discord-Music-BOT/actions/workflows/main.yml/badge.svg)](https://github.com/Harshraj9812/HR-Discord-Music-BOT/actions/workflows/main.yml)
 
 ### Docker Hub - [harshraj9812/discord-bot](https://hub.docker.com/r/harshraj9812/discord-bot)
 
